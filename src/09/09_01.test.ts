@@ -11,7 +11,7 @@ type UserType = {
 }
 
 test('big reference test', () => {
-    var user = {
+    let user:UserType = {
         name: 'Dimych',
         age: 32,
         address: {
